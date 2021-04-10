@@ -7,7 +7,12 @@ from pandas_datareader import data as pdr
 #获得相关组件的支持 pandas numpy datetime和plt
 #获得股票金融数据源，安装常见的一些软件包
 # pip install yfinance
-
+pip install fix_yahoo_finance
+pip install quandl
+pip install datetools
+pip install statsmodels -U
+pip install tushare
+pip install pandas_datareader
 
 
 # import fix_yahoo_finance as yf
